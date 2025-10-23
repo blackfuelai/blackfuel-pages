@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Privacy Policy — BlackFuel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy — BlackFuel">
+
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='4' ry='4' fill='%23000'/%3E%3Ctext x='16' y='22' text-anchor='middle' font-family='Orbitron, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, sans-serif' font-size='18' font-weight='900' font-style='italic' fill='%23d8ff3e'%3EBF%3C/text%3E%3C/svg%3E'/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600&family=Rajdhani:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+    html{overflow-x:hidden;font-family:'Space Grotesk',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:14px;height:100%}
+    body{min-height:100vh;display:flex;align-items:stretch;justify-content:center;overflow-x:hidden;transition:background .3s ease,color .3s ease;color:#000;background:#fff;position:relative}
+    a{color:inherit;text-decoration:none;position:relative}
+    a::after{content:"";position:absolute;left:0;bottom:-1px;width:100%;height:1px;background:currentColor;transform:scaleX(0);transition:transform .25s ease;opacity:.4}
+    a:hover::after{transform:scaleX(1)}
+
+    .wrap{max-width:820px;width:100%;padding:40px 28px 80px 28px;margin:0 auto}
+    header{display:flex;align-items:center;justify-content:space-between;margin-bottom:18px}
+    .brand{font-family:'Orbitron','Rajdhani','Space Grotesk',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-weight:900;font-style:italic;letter-spacing:-.01em}
+    .muted{opacity:.7}
+    h1{font-family:'Orbitron','Rajdhani','Space Grotesk',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-weight:900;font-style:italic;font-size:22px;margin:6px 0 14px}
+    h2{font-family:'Rajdhani','Space Grotesk',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-weight:600;font-size:16px;margin:22px 0 8px}
+    p,li{font-family:'Rajdhani','Space Grotesk',-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:14px;line-height:1.55;margin:6px 0}
+    ul{padding-left:18px}
+    .back{font-size:12px;opacity:.7}
+    .footer{position:fixed;left:24px;bottom:24px;font-size:11px;opacity:.65}
+    .footer:hover{opacity:1}
+
+    /* Theme */
+    .theme-toggle{position:fixed;top:18px;right:18px;width:22px;height:22px;border:none;background:none;cursor:pointer;padding:0;opacity:.7;transition:opacity .2s ease,color .2s ease;z-index:100;color:inherit}
+    .theme-toggle:hover{opacity:1}
+    .theme-icon{width:14px;height:14px;display:block}
+    body.dark{background:#000;color:#fff}
+  </style>
+</head>
+<body>
+  <button class="theme-toggle" aria-label="Toggle theme">
+    <svg class="theme-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor"></svg>
+  </button>
+
+  <div class="wrap">
+    <header>
+      <div class="brand">BLACKFUEL</div>
+      <a class="back" href="index.html">← Back</a>
+    </header>
+
+    <h1>Blackfuel.ai Service Privacy Policy</h1>
+    <p class="muted">Last Updated: Thursday, 23 October 2025</p>
+
+    <p>This policy describes how Blackfuel.ai ("we," "us," or "our") handles data submitted by our corporate customers ("Customer" or "you") when using our inference-as-a-service (the "Service").</p>
+
+    <p>We are committed to the privacy and confidentiality of your data. This policy is not intended for website visitors or marketing activities; it applies only to the data you provide to us for processing via the Service.</p>
+
+    <h2>1. Scope of this Policy</h2>
+    <p>This policy covers two categories of data:</p>
+    <ul>
+      <li><strong>Corporate Data:</strong> Any data, files, text, or other information that you (or your end-users) submit to our Service for processing. This is your data; we are a processor acting on your behalf.</li>
+      <li><strong>Service Data:</strong> Technical and operational information generated from your use of the Service (e.g., API logs, request volume, error logs) which we use to maintain and improve the Service.</li>
+    </ul>
+
+    <h2>2. Our Handling of Your Corporate Data</h2>
+    <p>Our commitment to you regarding your Corporate Data is simple:</p>
+    <ul>
+      <li><strong>Confidentiality:</strong> Your Corporate Data is treated as strictly confidential.</li>
+      <li><strong>Purpose Limitation:</strong> We will only use your Corporate Data to provide and maintain the Service as requested by you (i.e., to run the inference process and return the result).</li>
+      <li><strong>No Training:</strong> We do not use your Corporate Data to train our AI models or any other models, for any reason.</li>
+      <li><strong>No Sale or Sharing:</strong> We do not sell, rent, or share your Corporate Data with any third parties, except as required by law or as necessary to provide the Service (e.g., to a cloud infrastructure provider acting as our sub-processor, who is also bound by confidentiality).</li>
+    </ul>
+
+    <h2>3. Data Processing for Inference-as-a-Service</h2>
+    <p>This section details how your data is handled during the inference process.</p>
+    <ul>
+      <li><strong>Data in Transit:</strong> All Corporate Data sent to and from our Service is encrypted using industry-standard protocols (e.g., TLS/SSL).</li>
+      <li><strong>Data During Processing:</strong> Data is processed in secure, isolated environments. It is loaded into memory only for the duration required to perform the inference calculation.</li>
+      <li><strong>Data Retention (Inputs &amp; Outputs):</strong>
+        <ul>
+          <li><em>Inputs:</em> We do not store your input Corporate Data after the inference request has been successfully processed and the response is returned to you.</li>
+          <li><em>Outputs:</em> We do not store the output (the result of the inference) generated by the Service, except as required to transmit it back to you.</li>
+          <li><em>Logging (optional):</em> We may retain minimal, anonymized, or non-sensitive portions of request/response metadata (such as timestamps or error codes) for billing, monitoring, and debugging purposes for a limited period. We will not log the content of your inputs or outputs.</li>
+        </ul>
+      </li>
+    </ul>
+
+    <h2>4. Security</h2>
+    <p>We implement appropriate technical and organizational security measures to protect your Corporate Data against unauthorized access, alteration, disclosure, or destruction. This includes, but is not limited to, access controls, encryption, and secure network architecture.</p>
+
+    <h2>5. Data Processor Role</h2>
+    <p>You are the "Data Controller" of your Corporate Data. Blackfuel.ai is the "Data Processor." We will only process data on your behalf and in accordance with your instructions, which include this policy and our service agreement.</p>
+
+    <h2>6. Changes to This Policy</h2>
+    <p>We may update this policy from time to time. If we make material changes, we will notify you, either through our service agreement or by other direct communication.</p>
+
+    <h2>7. Contact Us</h2>
+    <p>If you have any questions about this Service Privacy Policy, please contact us at: <a href="mailto:comms@blackfuel.ai">comms@blackfuel.ai</a></p>
+
+    <p class="muted" style="margin-top:28px;">© BlackFuel</p>
+  </div>
+
+  <a class="footer" href="index.html">← Back to Home</a>
+
+  <script>
+    (function(){
+      const body=document.body;
+      const btn=document.querySelector('.theme-toggle');
+      const icon=document.querySelector('.theme-icon');
+      let theme=localStorage.getItem('theme')||'dark';
+      function renderIcon(){
+        icon.innerHTML=theme==='dark'
+          ? '<path d="M21 12.79A9 9 0 1 1 11.21 3a7 7 0 0 0 9.79 9.79z" fill="currentColor"></path>'
+          : '<circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"></circle><path d="M12 2v2M12 20v2M4.22 4.22l1.42 1.42M17.36 17.36l1.42 1.42M2 12h2M20 12h2M4.22 19.78l1.42-1.42M17.36 6.64l1.42-1.42" stroke="currentColor" stroke-width="2"></path>';
+      }
+      function applyTheme(){
+        body.classList.toggle('dark',theme==='dark');
+        renderIcon();
+        localStorage.setItem('theme',theme);
+      }
+      btn.addEventListener('click',()=>{
+        theme=theme==='dark'?'light':'dark';
+        applyTheme();
+      });
+      applyTheme();
+    })();
+  </script>
+</body>
+</html>
